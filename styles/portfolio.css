@@ -55,15 +55,67 @@ nav li a{
 .header {
 
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 .banner .profile-picture{
     width: 584px;
     height: 676px;
+}
+.banner-greetings{
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+.banner_title{
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner_massage{
+    margin-top: 0px;
+}
+.banner-content{
+    max-width: 585px;
+}
+
+.btn-download{
+    margin-top: 40px;
+}
+
+/* Main section styles */
+
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+
+}
+
+/* about section styles */
+.about{
+    border-radius: 10px;
+    background: #FFF8F3;
+    padding: 130px;
+    margin-top: 130px 0px;
 }
